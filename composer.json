@@ -1,0 +1,10 @@
+{
+    "name": "administrateur/php-initiation",
+    "authors": [
+        {
+            "name": "Fonteniaud",
+            "email": "maxime.fonteniaud@gmail.com"
+        }
+    ],
+    "require": {}
+}
