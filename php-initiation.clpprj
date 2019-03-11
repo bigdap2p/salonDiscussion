@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="/opt/lampp/htdocs/php-initiation/php-initiation.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost//opt/lampp/htdocs/php-initiation]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost//opt/lampp/htdocs/php-initiation]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="/opt/lampp/htdocs/php-initiation/src/Controller/Home/HomeController.php"/>
+  <file name="/opt/lampp/htdocs/php-initiation/src/Controller/Discution/ajoutDiscution.php"/>
+  <file name="/opt/lampp/htdocs/php-initiation/template/home/home.html.php"/>
+  <file name="/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php"/>
+  <file name="/opt/lampp/htdocs/php-initiation/template/users/users.html.php"/>
+  <file name="/opt/lampp/htdocs/php-initiation/template/users/users_new.html.php"/>
+  <file name="/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.3"/>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_static.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_real.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_psr4.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_namespaces.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_classmap.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/vendor/autoload.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/users/users_new.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/users/users.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/users/form_new.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/shared/alert.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/login/logout.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/login/login.html.php"/>
+  <file crc="1552258267341" name="/opt/lampp/htdocs/php-initiation/template/home/home.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/contact/contact.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/start.html.php"/>
+  <file crc="1552130743631" name="/opt/lampp/htdocs/php-initiation/template/end.html.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorSignin.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorLogin.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorInfo.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Validator/Validator.php"/>
+  <file crc="1552132037860" name="/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/My/Folder/Baz.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Model/User/UserAvatar.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Model/User/User.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Controller/Login/LoginController.php"/>
+  <file crc="1552260343289" name="/opt/lampp/htdocs/php-initiation/src/Controller/Home/HomeController.php"/>
+  <file crc="1552260161793" name="/opt/lampp/htdocs/php-initiation/src/Controller/Discution/ajoutDiscution.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Controller/Contact/ContactController.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Controller/Controller.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Connection/Connection.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/src/Foo.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/umd/popper.min.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/umd/popper.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/umd/popper-utils.min.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/umd/popper-utils.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/esm/popper.min.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/esm/popper.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/esm/popper-utils.min.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/esm/popper-utils.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/popper.min.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/popper.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/popper-utils.min.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/dist/popper-utils.js"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/node_modules/popper.js/index.d.ts"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/toString.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/support.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/slice.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/rnothtmlwhite.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/rcssNum.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/push.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/pnum.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/ObjectFunctionString.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/isWindow.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/isFunction.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/indexOf.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/hasOwn.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/getProto.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/fnToString.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/documentElement.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/document.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/concat.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/class2type.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/var/arr.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/traversing/var/siblings.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/traversing/var/rneedsContext.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/traversing/var/dir.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/traversing/findFilter.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/queue/delay.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/var/rtagName.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/var/rscriptType.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/var/rcheckableType.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/wrapMap.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/support.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/setGlobalEval.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/getAll.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/buildFragment.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation/_evalUrl.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/exports/global.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/exports/amd.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/event/trigger.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/event/support.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/event/focusin.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/event/alias.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/event/ajax.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/effects/Tween.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/effects/animatedSelector.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/deferred/exceptionHook.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/data/var/dataUser.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/data/var/dataPriv.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/data/var/acceptData.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/data/Data.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/var/swap.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/var/rnumnonpx.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/var/rboxStyle.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/var/isHiddenWithinTree.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/var/getStyles.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/var/cssExpand.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/support.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/showHide.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/hiddenVisibleSelectors.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/curCSS.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/adjustCSS.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css/addGetHookIf.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/var/rsingleTag.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/toType.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/support.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/stripAndCollapse.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/readyException.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/ready.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/ready-no-deferred.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/parseHTML.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/nodeName.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/init.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/DOMEval.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/camelCase.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core/access.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/attributes/val.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/attributes/support.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/attributes/prop.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/attributes/classes.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/attributes/attr.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/var/rquery.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/var/nonce.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/var/location.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/xhr.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/script.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/parseXML.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/load.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax/jsonp.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/wrap.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/traversing.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/serialize.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/selector.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/selector-sizzle.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/selector-native.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/queue.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/offset.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/manipulation.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/jquery.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/event.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/effects.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/dimensions.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/deprecated.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/deferred.js"/>
+  <file crc="1552130743623" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/data.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/css.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/core.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/callbacks.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/attributes.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/src/ajax.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/external/sizzle/dist/sizzle.min.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/external/sizzle/dist/sizzle.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/external/sizzle/LICENSE.txt"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/dist/jquery.slim.min.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/dist/jquery.slim.js"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/dist/jquery.min.js"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/dist/jquery.js"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/dist/core.js"/>
+  <file crc="1552130743619" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/LICENSE.txt"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/jquery/AUTHORS.txt"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/vendor/_rfs.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_visibility.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_text.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_stretched-link.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_spacing.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_sizing.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_shadows.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_screenreaders.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_position.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_overflow.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_float.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_flex.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_embed.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_display.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_clearfix.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_borders.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_background.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/utilities/_align.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_visibility.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_transition.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_text-truncate.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_text-hide.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_text-emphasis.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_table-row.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_size.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_screen-reader.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_resize.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_reset-text.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_pagination.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_nav-divider.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_lists.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_list-group.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_image.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_hover.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_grid.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_grid-framework.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_gradients.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_forms.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_float.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_deprecate.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_clearfix.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_caret.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_buttons.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_breakpoints.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_box-shadow.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_border-radius.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_badge.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_background-variant.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/mixins/_alert.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/bootstrap.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/bootstrap-reboot.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/bootstrap-grid.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_variables.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_utilities.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_type.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_transitions.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_tooltip.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_toasts.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_tables.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_spinners.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_root.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_reboot.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_progress.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_print.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_popover.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_pagination.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_navbar.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_nav.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_modal.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_mixins.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_media.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_list-group.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_jumbotron.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_input-group.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_images.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_grid.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_functions.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_forms.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_dropdown.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_custom-forms.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_code.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_close.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_carousel.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_card.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_buttons.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_button-group.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_breadcrumb.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_badge.scss"/>
+  <file crc="1552130743615" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/scss/_alert.scss"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/tools/sanitizer.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/util.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/tooltip.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/toast.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/tab.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/scrollspy.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/popover.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/modal.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/index.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/dropdown.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/collapse.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/carousel.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/button.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/src/alert.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/util.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/tooltip.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/toast.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/tab.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/scrollspy.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/popover.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/modal.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/index.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/dropdown.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/collapse.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/carousel.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/button.js"/>
+  <file crc="1552130743611" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/js/dist/alert.js"/>
+  <file crc="1552130743607" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/js/bootstrap.min.js"/>
+  <file crc="1552130743607" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/js/bootstrap.js"/>
+  <file crc="1552130743607" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"/>
+  <file crc="1552130743607" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/js/bootstrap.bundle.js"/>
+  <file crc="1552130743603" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  <file crc="1552130743603" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/css/bootstrap.css"/>
+  <file crc="1552130743603" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css"/>
+  <file crc="1552130743603" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/css/bootstrap-reboot.css"/>
+  <file crc="1552130743603" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/css/bootstrap-grid.min.css"/>
+  <file crc="1552130743603" name="/opt/lampp/htdocs/php-initiation/public/node_modules/bootstrap/dist/css/bootstrap-grid.css"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/index.php"/>
+  <file crc="1552130743627" name="/opt/lampp/htdocs/php-initiation/public/funcjson.php"/>
+ </filescache>
+</project>

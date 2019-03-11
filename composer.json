@@ -1,10 +1,16 @@
 {
-    "name": "administrateur/php-initiation",
-    "authors": [
-        {
-            "name": "Fonteniaud",
-            "email": "maxime.fonteniaud@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "administrateur/php-initiation",
+  "authors": [
+    {
+      "name": "p2p-Buzz",
+      "email": "bigda@hotmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "PHPInitiation\\": "src/",
+      "Baz\\": "src/"
+    }
+  }
 }

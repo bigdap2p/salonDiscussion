@@ -1,0 +1,187 @@
+
+<codestructure version="1.4">
+<phptree>
+<treenode node="Bar;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Foo.php;f0;7;1;10;;;;vpos;;v;;a;;r;;d0,8;;b0,0;;m0;;e">
+</treenode>
+<treenode node="Baz;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/My/Folder/Baz.php;f0;8;1;23;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class Baz&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    &lt;b&gt;author&lt;/b&gt;: nicolas&#10;&lt;b&gt;license&lt;/b&gt;: : MIT;;d0,9;;b0,0;;m0;;e">
+<treenode node="sayBaz;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/My/Folder/Baz.php;f11;17;5;20;;;;vpos;;v;;a;;r;;d4,18;;b1,0;;m0;;emessage;;p">
+</treenode>
+</treenode>
+<treenode node="ClassLoader;PHP:Class Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f0;42;1;434;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class ClassLoader&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    ClassLoader implements a PSR-0, PSR-4 and classmap class loader.&#10;$loader = new \Composer\Autoload\ClassLoader();s&#10;// register classes with namespaces&#10;$loader-&gt;add(&apos;Symfony\Component&apos;, __DIR__.&apos;/component&apos;);s&#10;$loader-&gt;add(&apos;Symfony&apos;,           __DIR__.&apos;/framework&apos;);s&#10;// activate the autoloader&#10;$loader-&gt;register();s&#10;// to enable searching the include path (eg. for PEAR packages)&#10;$loader-&gt;setUseIncludePath(true);s&#10;In this example, if you try to use a class in the Symfony\Component&#10;namespace or one of its children (Symfony\Component\Console for instance),&#10;the autoloader will first look for the class under the component/&#10;directory, and it will then fallback to the framework/ directory if not&#10;found before giving up.&#10;This class is loosely based on the Symfony UniversalClassLoader.&#10;&lt;b&gt;author&lt;/b&gt;: Fabien Potencier &lt;fabien&#10;&lt;b&gt;symfony&lt;/b&gt;: .com&gt;&#10;&lt;b&gt;author&lt;/b&gt;: Jordi Boggiano &lt;j.boggiano&#10;&lt;b&gt;seld&lt;/b&gt;: .be&gt;&#10;&lt;b&gt;see&lt;/b&gt;: http://www.php-fig.org/psr/psr-0/&#10;&lt;b&gt;see&lt;/b&gt;: http://www.php-fig.org/psr/psr-4/;;d0,43;;b0,0;;m0;;e">
+<treenode node="add;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;108;5;143;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    add($prefix, $paths, $prepend = false)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Registers a set of PSR-0 directories for a given prefix, either&#10;appending or prepending to the ones previously set for this prefix.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    string &lt;b&gt;$prefix&lt;/b&gt;: The prefix&#10;    array|string &lt;b&gt;$paths&lt;/b&gt;: The PSR-0 root directories&#10;    bool &lt;b&gt;$prepend&lt;/b&gt;: Whether to prepend the directories;;d4,109;;b1,0;;m0;;estring $prefix;;parray|string $paths;;pbool $prepend;;p">
+</treenode>
+<treenode node="addClassMap;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;91;5;98;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    addClassMap(array $classMap)&#10;&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    array &lt;b&gt;$classMap&lt;/b&gt;: Class to filename map;;d4,92;;b1,0;;m0;;earray $classMap;;p">
+</treenode>
+<treenode node="addPsr4;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;155;5;191;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    addPsr4($prefix, $paths, $prepend = false)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Registers a set of PSR-4 directories for a given namespace, either&#10;appending or prepending to the ones previously set for this namespace.&#10;&lt;b&gt;throws&lt;/b&gt;: \InvalidArgumentException&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    string &lt;b&gt;$prefix&lt;/b&gt;: The prefix/namespace, with trailing &apos;\\&apos;&#10;    array|string &lt;b&gt;$paths&lt;/b&gt;: The PSR-4 base directories&#10;    bool &lt;b&gt;$prepend&lt;/b&gt;: Whether to prepend the directories;;d4,156;;b1,0;;m0;;estring $prefix;;parray|string $paths;;pbool $prepend;;p">
+</treenode>
+<treenode node="findFile;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;334;5;367;;;;vpos;;v;;astring|false;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    findFile($class)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Finds the path to the file where the class is defined.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    string &lt;b&gt;$class&lt;/b&gt;: The name of the class&#10;&#10;&lt;b&gt;Return:&lt;/b&gt;&#10;   The path if found, false otherwise;;d4,335;;b1,0;;m0;;estring $class;;p">
+</treenode>
+<treenode node="findFileWithExtension;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f12;369;5;433;;;;vpos;;v;;a;;r;;d4,370;;b3,0;;m0;;eclass;;pext;;p">
+</treenode>
+<treenode node="getApcuPrefix;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;289;5;292;;;;vpos;;v;;astring;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getApcuPrefix()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    The APCu prefix in use, or null if APCu caching is not enabled.&#10;&#10;&lt;b&gt;Return:&lt;/b&gt;&#10;   |null;;d4,290;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getClassMap;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;83;5;86;;;;vpos;;v;;a;;r;;d4,84;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getFallbackDirs;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;73;5;76;;;;vpos;;v;;a;;r;;d4,74;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getFallbackDirsPsr4;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;78;5;81;;;;vpos;;v;;a;;r;;d4,79;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getPrefixes;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;59;5;66;;;;vpos;;v;;a;;r;;d4,60;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getPrefixesPsr4;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;68;5;71;;;;vpos;;v;;a;;r;;d4,69;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getUseIncludePath;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;248;5;251;;;;vpos;;v;;abool;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getUseIncludePath()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Can be used to check if the autoloader uses the include path to check&#10;for classes.;;d4,249;;b1,0;;m0;;e">
+</treenode>
+<treenode node="isClassMapAuthoritative;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;269;5;272;;;;vpos;;v;;abool;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    isClassMapAuthoritative()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Should class lookup fail if not found in the current class map?;;d4,270;;b1,0;;m0;;e">
+</treenode>
+<treenode node="loadClass;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;318;5;325;;;;vpos;;v;;abool|null;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    loadClass($class)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Loads the given class or interface.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    string &lt;b&gt;$class&lt;/b&gt;: The name of the class&#10;&#10;&lt;b&gt;Return:&lt;/b&gt;&#10;   True if loaded, null otherwise;;d4,319;;b1,0;;m0;;estring $class;;p">
+</treenode>
+<treenode node="register;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;299;5;302;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    register($prepend = false)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Registers this instance as an autoloader.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    bool &lt;b&gt;$prepend&lt;/b&gt;: Whether to prepend the autoloader or not;;d4,300;;b1,0;;m0;;ebool $prepend;;p">
+</treenode>
+<treenode node="set;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;200;5;207;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    set($prefix, $paths)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Registers a set of PSR-0 directories for a given prefix,&#10;replacing any others previously set for this prefix.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    string &lt;b&gt;$prefix&lt;/b&gt;: The prefix&#10;    array|string &lt;b&gt;$paths&lt;/b&gt;: The PSR-0 base directories;;d4,201;;b1,0;;m0;;estring $prefix;;parray|string $paths;;p">
+</treenode>
+<treenode node="setApcuPrefix;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;279;5;282;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    setApcuPrefix($apcuPrefix)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    APCu prefix to use to cache found/not-found classes, if the extension is enabled.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    string|null &lt;b&gt;$apcuPrefix&lt;/b&gt;;;d4,280;;b1,0;;m0;;estring|null $apcuPrefix;;p">
+</treenode>
+<treenode node="setClassMapAuthoritative;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;259;5;262;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    setClassMapAuthoritative($classMapAuthoritative)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Turns off searching the prefix and fallback directories for classes&#10;that have not been registered with the class map.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    bool &lt;b&gt;$classMapAuthoritative&lt;/b&gt;;;d4,260;;b1,0;;m0;;ebool $classMapAuthoritative;;p">
+</treenode>
+<treenode node="setPsr4;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;218;5;230;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    setPsr4($prefix, $paths)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Registers a set of PSR-4 directories for a given namespace,&#10;replacing any others previously set for this namespace.&#10;&lt;b&gt;throws&lt;/b&gt;: \InvalidArgumentException&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    string &lt;b&gt;$prefix&lt;/b&gt;: The prefix/namespace, with trailing &apos;\\&apos;&#10;    array|string &lt;b&gt;$paths&lt;/b&gt;: The PSR-4 base directories;;d4,219;;b1,0;;m0;;estring $prefix;;parray|string $paths;;p">
+</treenode>
+<treenode node="setUseIncludePath;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;237;5;240;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    setUseIncludePath($useIncludePath)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Turns on searching the include path for class files.&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    bool &lt;b&gt;$useIncludePath&lt;/b&gt;;;d4,238;;b1,0;;m0;;ebool $useIncludePath;;p">
+</treenode>
+<treenode node="unregister;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f11;307;5;310;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    unregister()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Unregisters this instance as an autoloader.;;d4,308;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="ComposerAutoloaderInit212ed1eb4c6ea0f0bd2cd5f9142ca635;PHP:Class Name;/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_real.php;f0;4;1;51;;;;vpos;;v;;a;;r;;d0,5;;b0,0;;m0;;e">
+<treenode node="getLoader;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_real.php;f18;15;5;50;;;;vpos;;v;;a;;r;;d4,16;;b1,5;;m0;;e">
+</treenode>
+<treenode node="loadClassLoader;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_real.php;f18;8;5;13;;;;vpos;;v;;a;;r;;d4,9;;b1,5;;m0;;eclass;;p">
+</treenode>
+</treenode>
+<treenode node="ComposerStaticInit212ed1eb4c6ea0f0bd2cd5f9142ca635;PHP:Class Name;/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_static.php;f0;6;1;38;;;;vpos;;v;;a;;r;;d0,7;;b0,0;;m0;;e">
+<treenode node="getInitializer;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/autoload_static.php;f18;30;5;37;;;;vpos;;v;;a;;r;;d4,31;;b1,5;;m0;;eloader;;p">
+</treenode>
+</treenode>
+<treenode node="Connection;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Connection/Connection.php;f0;11;1;41;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class Connection&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 04/03/2019&#10;Time: 09:59;;d0,12;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Connection/Connection.php;f12;15;5;31;;;;vpos;;v;;a;;r;;d35,15;;b3,0;;m0;;e">
+</treenode>
+<treenode node="getConnection;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Connection/Connection.php;f18;33;5;40;;;;vpos;;v;;a;;r;;d4,34;;b1,5;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="Controller;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Controller/Controller.php;f0;11;1;40;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class Controller&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 28/02/2019&#10;Time: 10:20;;d0,12;;b0,0;;m0;;e">
+<treenode node="display;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Controller.php;f14;14;5;18;;;;vpos;;v;;a;;r;;d4,15;;b2,0;;m0;;etemplatePath;;pdata;;p">
+</treenode>
+<treenode node="session;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Controller.php;f14;20;5;35;;;;vpos;;v;;a;;r;;d60,20;;b2,0;;m0;;ekey;;pvalue;;p">
+</treenode>
+<treenode node="trySession;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Controller.php;f11;37;5;39;;;;vpos;;v;;a;;r;;d34,37;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="Foo;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Foo.php;f0;3;1;6;;;;vpos;;v;;a;;r;;d0,4;;b0,0;;m0;;e">
+</treenode>
+<treenode node="HomeController;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Controller/Home/HomeController.php;f0;12;1;62;;;;vpos;;v;;aController;;c;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class HomeController extends Controller&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    &lt;b&gt;author&lt;/b&gt;: nicolas&#10;&lt;b&gt;license&lt;/b&gt;: : MIT;;d0,13;;b0,0;;m0;;e">
+<treenode node="read;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Home/HomeController.php;f11;24;5;58;;;;vpos;;v;;a;;r;;d4,25;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="LoginController;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Controller/Login/LoginController.php;f0;15;1;73;;;;vpos;;v;;aController;;c;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class LoginController extends Controller&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    &lt;b&gt;author&lt;/b&gt;: nicolas&#10;&lt;b&gt;license&lt;/b&gt;: : MIT;;d0,16;;b0,0;;m0;;e">
+<treenode node="login;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Login/LoginController.php;f11;17;5;61;;;;vpos;;v;;a;;r;;d4,18;;b1,0;;m0;;e">
+</treenode>
+<treenode node="logout;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Login/LoginController.php;f11;63;5;70;;;;vpos;;v;;a;;r;;d4,64;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="User;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Model/User/User.php;f0;7;1;73;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class User&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    &lt;b&gt;author&lt;/b&gt;: nicolas&#10;&lt;b&gt;license&lt;/b&gt;: : MIT;;d0,8;;b0,0;;m0;;e">
+<treenode node="getId;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/User.php;f11;38;5;41;;;;vpos;;v;;amixed;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getId()&#10;;;d4,39;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getInfo;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/User.php;f11;53;30;53;;;;vpos;;v;;amixed;;r;;d-1,-1;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getLogin;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/User.php;f11;68;31;68;;;;vpos;;v;;amixed;;r;;d-1,-1;;b1,0;;m0;;e">
+</treenode>
+<treenode node="setId;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/User.php;f11;30;5;33;;;;vpos;;v;;a void;;r;;d4,31;;b1,0;;m0;;eid;;p">
+</treenode>
+<treenode node="setInfo;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/User.php;f11;45;5;48;;;;vpos;;v;;a;;r;;d4,46;;b1,0;;m0;;einfo;;p">
+</treenode>
+<treenode node="setLogin;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/User.php;f11;60;5;63;;;;vpos;;v;;a;;r;;d4,61;;b1,0;;m0;;elogin;;p">
+</treenode>
+</treenode>
+<treenode node="UserAvatar;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserAvatar.php;f0;11;1;14;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class UserAvatar&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 22/02/2019&#10;Time: 14:40;;d0,12;;b0,0;;m0;;e">
+</treenode>
+<treenode node="UserInfo;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php;f0;11;1;60;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class UserInfo&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 22/02/2019&#10;Time: 14:42;;d0,12;;b0,0;;m0;;e">
+<treenode node="getFirstName;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php;f11;56;5;59;;;;vpos;;v;;amixed;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getFirstName()&#10;;;d4,57;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getLastName;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php;f11;42;5;45;;;;vpos;;v;;amixed;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getLastName()&#10;;;d4,43;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getPhone;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php;f11;27;5;30;;;;vpos;;v;;amixed;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getPhone()&#10;;;d4,28;;b1,0;;m0;;e">
+</treenode>
+<treenode node="setFirstName;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php;f11;48;5;51;;;;vpos;;v;;a;;r;;d4,49;;b1,0;;m0;;efirstName;;p">
+</treenode>
+<treenode node="setLastName;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php;f11;34;5;37;;;;vpos;;v;;a;;r;;d4,35;;b1,0;;m0;;elastName;;p">
+</treenode>
+<treenode node="setPhone;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserInfo.php;f11;19;5;22;;;;vpos;;v;;a;;r;;d4,20;;b1,0;;m0;;ephone;;p">
+</treenode>
+</treenode>
+<treenode node="UserLogin;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f0;11;1;84;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class UserLogin&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 22/02/2019&#10;Time: 14:40;;d0,12;;b0,0;;m0;;e">
+<treenode node="getEmail;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f11;79;5;82;;;;vpos;;v;;amixed;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getEmail()&#10;;;d4,80;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getId;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f11;66;28;66;;;;vpos;;v;;aint;;r;;d-1,-1;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getMessage;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f11;58;5;61;;;;vpos;;v;;astring;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getMessage()&#10;;;d4,59;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getPassword;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f11;45;5;48;;;;vpos;;v;;amixed;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    getPassword()&#10;;;d4,46;;b1,0;;m0;;e">
+</treenode>
+<treenode node="setEmail;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f11;71;5;74;;;;vpos;;v;;a;;r;;d4,72;;b1,0;;m0;;eemail;;p">
+</treenode>
+<treenode node="setMessage;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f11;50;5;53;;;;vpos;;v;;a;;r;;d4,51;;b1,0;;m0;;eusersMessage;;p">
+</treenode>
+<treenode node="setPassword;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Model/User/UserLogin.php;f11;37;5;40;;;;vpos;;v;;a;;r;;d4,38;;b1,0;;m0;;epassword;;p">
+</treenode>
+</treenode>
+<treenode node="UserLoginRepository;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php;f0;13;1;79;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class UserLoginRepository&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 04/03/2019&#10;Time: 12:08;;d0,14;;b0,0;;m0;;e">
+<treenode node="findAll;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php;f11;26;5;35;;;;vpos;;v;;aarray;;r;;d4,27;;b1,0;;m0;;e">
+</treenode>
+<treenode node="findByEmail;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php;f11;37;5;46;;;;vpos;;v;;a;;r;;d4,38;;b1,0;;m0;;eemail;;p">
+</treenode>
+<treenode node="insertMessage;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php;f11;59;5;67;;;;vpos;;v;;a;;r;;d4,60;;b1,0;;m0;;eemail;;pmessage;;p">
+</treenode>
+<treenode node="listMessage;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php;f11;48;5;57;;;;vpos;;v;;aarray;;r;;d4,49;;b1,0;;m0;;e">
+</treenode>
+<treenode node="persist;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php;f11;15;5;24;;;;vpos;;v;;a;;r;;d4,16;;b1,0;;m0;;eemail;;ppassword;;p">
+</treenode>
+<treenode node="updateTime;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/repository/UserLoginRepository.php;f11;69;5;78;;;;vpos;;v;;a;;r;;d4,70;;b1,0;;m0;;eemail;;p">
+</treenode>
+</treenode>
+<treenode node="UsersController;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php;f0;16;1;88;;;;vpos;;v;;aController;;c;;r;;d0,17;;b0,0;;m0;;e">
+<treenode node="create;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php;f11;73;5;77;;;;vpos;;v;;a;;r;;d4,74;;b1,0;;m0;;e">
+</treenode>
+<treenode node="delete;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php;f11;84;5;87;;;;vpos;;v;;a;;r;;d4,85;;b1,0;;m0;;e">
+</treenode>
+<treenode node="new;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php;f11;18;5;56;;;;vpos;;v;;a;;r;;d4,19;;b1,0;;m0;;e">
+</treenode>
+<treenode node="read;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php;f11;57;5;71;;;;vpos;;v;;a;;r;;d4,58;;b1,0;;m0;;e">
+</treenode>
+<treenode node="update;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Users/UsersController.php;f11;79;5;82;;;;vpos;;v;;a;;r;;d4,80;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="Validator;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Validator/Validator.php;f0;11;1;24;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class Validator&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 27/02/2019&#10;Time: 10:26;;d0,12;;b0,0;;m0;;e">
+<treenode node="post;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Validator/Validator.php;f14;13;5;22;;;;vpos;;v;;a;;r;;d4,14;;b2,0;;m0;;evarName;;pfilter;;pregExp;;p">
+</treenode>
+</treenode>
+<treenode node="ValidatorInfo;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorInfo.php;f0;11;1;26;;;;vpos;;v;;aValidator;;c;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class ValidatorInfo extends Validator&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 27/02/2019&#10;Time: 09:36;;d0,12;;b0,0;;m0;;e">
+<treenode node="valid;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorInfo.php;f11;13;5;25;;;;vpos;;v;;aarray;;r;;d4,14;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="ValidatorLogin;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorLogin.php;f0;11;1;39;;;;vpos;;v;;aValidator;;c;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class ValidatorLogin extends Validator&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 27/02/2019&#10;Time: 09:33;;d0,12;;b0,0;;m0;;e">
+<treenode node="valid;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorLogin.php;f11;14;9;36;;;;vpos;;v;;aarray;;r;;d4,15;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="ValidatorSignin;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorSignin.php;f0;11;1;24;;;;vpos;;v;;aValidatorLogin;;c;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class ValidatorSignin extends ValidatorLogin&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Administrateur&#10;Date: 27/02/2019&#10;Time: 14:37;;d0,12;;b0,0;;m0;;e">
+<treenode node="valid;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Validator/ValidatorSignin.php;f11;14;5;22;;;;vpos;;v;;a array;;r;;d4,15;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="ajoutDiscution;PHP:Class Name;/opt/lampp/htdocs/php-initiation/src/Controller/Discution/ajoutDiscution.php;f0;11;1;39;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    class ajoutDiscution&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Created by PhpStorm.&#10;User: Florian&#10;Date: 07/03/2019&#10;Time: 22:23;;d0,12;;b0,0;;m0;;e">
+<treenode node="ecrireJson;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Discution/ajoutDiscution.php;f15;26;5;37;;;;vpos;;v;;a;;r;;d66,26;;b1,0;;m0;;enomDuFichier;;plogin;;pmessage;;p">
+</treenode>
+<treenode node="lectureJson;PHP:Function Name;/opt/lampp/htdocs/php-initiation/src/Controller/Discution/ajoutDiscution.php;f8;16;9;23;;;;vpos;;v;;a;;r;;d8,17;;b1,0;;m0;;enomDuFichier;;p">
+</treenode>
+</treenode>
+<treenode node="includeFile;PHP:Function Name;/opt/lampp/htdocs/php-initiation/vendor/composer/ClassLoader.php;f0;441;1;444;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    includeFile($file)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Scope isolated include.&#10;Prevents access to $this/self from included files.;;d0,442;;b0,0;;m0;;efile;;p">
+</treenode>
+</phptree>
+</codestructure>

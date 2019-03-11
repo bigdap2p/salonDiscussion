@@ -1,0 +1,53 @@
+{
+
+  "home_read": {
+
+    "url": "/home",
+    "controller": "Home/HomeController",
+    "action": "read",
+    "method": "get,post"
+  },
+  "contact_read": {
+
+    "url": "/contact",
+    "controller": "Contact/ContactController",
+    "action": "read",
+    "method": "get"
+  },
+  "users_read": {
+
+    "url": "/users",
+    "controller": "Users/UsersController",
+    "action": "read",
+    "method": "get"
+  },
+
+  "users_signin": {
+
+    "url": "/signin",
+    "controller": "Users/UsersController",
+    "action": "new",
+    "method": "post,get"
+  },
+  "users_login": {
+
+    "url": "/login",
+    "controller": "Login/LoginController",
+    "action": "login",
+    "method": "get,post"
+  },
+  "users_logout": {
+
+    "url": "/logout",
+    "controller": "Login/LoginController",
+    "action": "logout",
+    "method": "get,post"
+  },
+  "users_logout": {
+
+    "url": "/logout",
+    "controller": "Login/LoginController",
+    "action": "logout",
+    "method": "get"
+  }
+}
