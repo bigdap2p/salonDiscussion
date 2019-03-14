@@ -24,14 +24,14 @@ class ajoutDiscussion
         }
 
         public function ecrireJson ($nomDuFichier,$login,$message){
-	   	$nomDuFichier;
-        $fichier = fopen($nomDuFichier, 'r+');
-        $jesaispas = fread($fichier, filesize($nomDuFichier));  
+            $jsonName = "jsonDiscussion/$nomDuFichier";
+        $fichier = fopen($jsonName, 'r+');
+        $jesaispas = fread($fichier, filesize($jsonName));
    		$resultat = json_decode($jesaispas);
    		if ($resultat === null){$resultat = [];}
    		array_push($resultat, ["login"=>$login,"message"=>$message]);
    		$resultat2 = json_encode($resultat);
-   		$fichier = fopen($nomDuFichier, 'w+');
+   		$fichier = fopen($jsonName, 'w+');
    		fwrite($fichier, $resultat2);
    		fclose($fichier);
 	   }
