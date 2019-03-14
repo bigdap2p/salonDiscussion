@@ -35,14 +35,10 @@ class LoginController extends Controller
                     $users = $repository->findByEmail($email);
                     if($users && password_verify($password, $users[0]->getPassword())){
 
+						
                         $this->session("id", $users[0]->getId());
-
-                        $dbh = Connection::getConnection();
-                        $sql = "UPDATE `user_login` SET `time` = :time WHERE `user_login`.`email` = :email";
-                        $sth = $dbh->prepare($sql);
-                        $sth->bindValue(":email", $email);
-                        $sth->bindValue(":time", date('Y m d H:i:s'));
-                        $sth->execute();
+                        $this->session("login", $users[0]->getLogin());
+					   	$this->session("discussion", $users[0]->getDiscussion());
 
                         header("location: users");
                         exit;
