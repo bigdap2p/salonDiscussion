@@ -2,7 +2,6 @@
 
 namespace PHPInitiation\Controller\Users;
 
-
 use PHPInitiation\Model\User\User;
 use PHPInitiation\Model\User\UserInfo;
 use PHPInitiation\Model\User\UserLogin;
@@ -13,15 +12,10 @@ use PHPInitiation\Controller\Controller;
 use PHPInitiation\Connection\Connection;
 use PHPInitiation\repository\UserLoginRepository;
 
-
 class UsersController extends Controller
 {
     public function new()
     {
-
-
-
-
         if ($this->session("id")) {
             header("location: home");
         }
@@ -59,8 +53,7 @@ class UsersController extends Controller
         include __DIR__ . "/../../../template/users/users_new.html.php";
 
     }
-
-    
+   
     public function read()
     {
 
@@ -71,15 +64,10 @@ class UsersController extends Controller
         } catch (\PDOException $e) {
                 }
 
-
-
-
                 $this->display("users/users.html.php", [
                     "title" => "Users",
                     "users" => $users
                 ]);
-
-
 
         if(filter_input(INPUT_POST, "createDiscussion")){
             $lastId = new UserLoginRepository();
@@ -87,12 +75,11 @@ class UsersController extends Controller
             $idDiscussion = $resultat[0]["id"];
             $idDiscussion = $idDiscussion+1;
 
-
             filter_input_array(INPUT_POST)["nom_discussion"];
 
             $tabtest = filter_input_array(INPUT_POST);
             $nmbtab = count($tabtest);
-            $nmbtab = $nmbtab-3;
+            $nmbtab = $nmbtab-2;
             for ($i=0;$i<$nmbtab;$i++){
                 if($i<=0){
                     $nmbparticipant = current($tabtest);
@@ -100,57 +87,34 @@ class UsersController extends Controller
                     $nmbparticipant = $nmbparticipant.",".next($tabtest);
                 }
             }
-           // echo $nmbparticipant;
 
-            filter_input_array(INPUT_POST)["admin_discussion"];
-
-            $nomJsonFile = $idDiscussion.".json";
-
-
-            echo $idDiscussion;
-            echo "<br>";
-            echo filter_input_array(INPUT_POST)["nom_discussion"];
-            echo "<br>";
-            echo $nmbparticipant;
-            echo "<br>";
-            echo filter_input_array(INPUT_POST)["admin_discussion"];
-            echo "<br>";
-            echo $nomJsonFile;
+            $id_discussion = $idDiscussion;
+            $nom_fichier_json = $idDiscussion.".json";
+            $nom_discussion = filter_input_array(INPUT_POST)["nom_discussion"];
+            $participant = $nmbparticipant;
+            $admin_discussion = $users[0]->getEmail();
 
 
-//            $discussionNew = new UserLoginRepository();
-//            $discussionNew->createDiscussion
-//            (
-//                filter_input(INPUT_POST, "id_discussion"),
-//                filter_input(INPUT_POST, "nom_discussion"),
-//                filter_input(INPUT_POST, "participant"),
-//                filter_input(INPUT_POST, "admin_discussion"),
-//                filter_input(INPUT_POST, "nom_fichier_json")
-//            );
+            $discussionNew = new UserLoginRepository();
+            $discussionNew->createDiscussion($id_discussion,$nom_discussion,$participant,$admin_discussion,$nom_fichier_json);
 
-          //  header("/users");
+            $tabParticipant = explode(",",$nmbparticipant);
+            foreach ($tabParticipant as $value) {
+                $email = $value;
+                $discussioUsers = new UserLoginRepository();
+                $selectUserDiscussion = $discussioUsers->selectDiscussionUser($email);
+                $newIdInsert = $selectUserDiscussion[0]["discussion"] . "," . $idDiscussion;
+                echo $newIdInsert;
+                $updateUser2 = new UserLoginRepository();
+                $updateUser2->updateUserDiscussion($email, $newIdInsert);
+            }
+
+            header("/users");
         }
-
-//        $tabEmail = array("nicolas@nicolas.fr","nicolas@nicolas.com");
-//        $newIdDiscussion = "6";
-//        foreach ($tabEmail as $value) {
-//            $email = $value;
-//            $discussioUsers = new UserLoginRepository();
-//            $selectUserDiscussion = $discussioUsers->selectDiscussionUser($email);
-//            $newIdInsert = $selectUserDiscussion[0]["discussion"] . "," . $newIdDiscussion;
-//            $updateUser2 = new UserLoginRepository();
-//            $updateUser2->updateUserDiscussion($email, $newIdInsert);
-//        }
-
-
-
     }
-
-
 
     public function create()
     {
-
 
     }
 
@@ -164,4 +128,3 @@ class UsersController extends Controller
 
     }
 }
-
