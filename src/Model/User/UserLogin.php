@@ -22,12 +22,14 @@ class UserLogin
      * @var string
      */
      $email,
+     
+     
+     
+     $login,
+     
+     
+     $discussion,
 
-
-        /**
-         * @var string
-         */
-        $usersMessage,
 
      /**
      * @var string
@@ -48,25 +50,27 @@ class UserLogin
         return $this->password;
     }
 
-    public function setMessage(string $usersMessage)
-    {
-        $this->usersMessage = $usersMessage;
-    }
-
-    /**
-     * @return string
-     */
-    public function getMessage()
-    {
-        return $this->usersMessage;
-    }
-
+  
+  
     /**
      * @return int
      */
     public function getId(): ?int
     {
         return $this->id;
+    }
+    
+     public function setLogin(string $login)
+    {
+        $this->login = $login;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLogin()
+    {
+        return $this->login;
     }
 
     public function setEmail(string $email)
@@ -82,4 +86,17 @@ class UserLogin
         return $this->email;
     }
 
+	
+    public function setDiscution(string $discussion)
+    {
+        $this->discussion = $discussion;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDiscussion()
+    {
+        return $this->discussion;
+    }
 }
