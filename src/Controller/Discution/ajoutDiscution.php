@@ -6,24 +6,23 @@
  * Time: 22:23
  */
 
-namespace PHPInitiation\Controller\Discution;
+namespace PHPInitiation\Controller\Discussion;
 
 
-class ajoutDiscution
+class ajoutDiscussion
 {
 
-
         public
-        function lectureJson ($nomDuFichier)
+        function lectureJson ($jsonName)
         {
-            $handle = fopen($nomDuFichier, "r");
-            $resultat = fread($handle, filesize($nomDuFichier));
-            $finalDiscution = json_decode($resultat);
+            $jsonName = "jsonDiscussion/$jsonName";
+            $handle = fopen($jsonName, "r");
+            $resultat = fread($handle, filesize($jsonName));
+            $finalDiscussion = json_decode($resultat);
             fclose($handle);
-            return $finalDiscution;
+            return $finalDiscussion;
         }
 
-        
         public function ecrireJson ($nomDuFichier,$login,$message){
 	   	$nomDuFichier;
         $fichier = fopen($nomDuFichier, 'r+');
